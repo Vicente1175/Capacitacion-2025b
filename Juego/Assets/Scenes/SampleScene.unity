@@ -246,7 +246,7 @@ Transform:
   m_GameObject: {fileID: 395459117}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.037, y: -3.954, z: 0}
+  m_LocalPosition: {x: -0.7, y: -2.98, z: 0}
   m_LocalScale: {x: 8.423442, y: 8.423442, z: 8.423442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -595,7 +595,7 @@ Transform:
   m_GameObject: {fileID: 992798220}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.817, y: -3.957, z: 0}
+  m_LocalPosition: {x: -8.554, y: -2.983, z: 0}
   m_LocalScale: {x: 8.423442, y: 8.423442, z: 8.423442}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -756,7 +756,7 @@ Transform:
   m_GameObject: {fileID: 1498205840}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.89, y: -3.939, z: 0}
+  m_LocalPosition: {x: -4.627, y: -2.965, z: 0}
   m_LocalScale: {x: 8.215865, y: 8.215865, z: 8.215865}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -859,6 +859,7 @@ GameObject:
   - component: {fileID: 1874112289}
   - component: {fileID: 1874112288}
   - component: {fileID: 1874112287}
+  - component: {fileID: 1874112292}
   m_Layer: 0
   m_Name: SapoPerro
   m_TagString: Untagged
@@ -1053,13 +1054,34 @@ Transform:
   m_GameObject: {fileID: 1874112286}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.49, y: 0.37, z: 0}
+  m_LocalPosition: {x: -9.216999, y: -0.13600004, z: 0}
   m_LocalScale: {x: 5.220225, y: 5.328222, z: 5.3464}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1303900448}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1874112292
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874112286}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9ea4672b1ac3bc74b88d6f142603ea27, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
